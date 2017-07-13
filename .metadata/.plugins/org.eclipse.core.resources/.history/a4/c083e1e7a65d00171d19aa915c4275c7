@@ -1,0 +1,18 @@
+package raj;
+
+public class ClassC {
+	public static void main(String[] args) {
+		ClassB clb= new ClassB();
+		String s=clb.empId;
+	}
+	
+	public ClassA myMethod(String srt){
+		ClassB clb=new ClassB();
+		return clb;
+	}
+	
+	public ClassB myMethod(String srt,String tsrr){
+		ClassB clb=new ClassB();
+		return clb;
+	}
+}

@@ -1,0 +1,8 @@
+package officeWork;
+
+public class PrintNumber {
+public static void main(String[] args) {
+	float fNum=8.04f;
+	System.out.println(fNum/0);
+}
+}

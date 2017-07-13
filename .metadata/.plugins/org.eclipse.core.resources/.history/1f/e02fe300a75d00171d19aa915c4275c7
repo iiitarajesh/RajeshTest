@@ -1,0 +1,15 @@
+package raj;
+
+public class ClassC {
+	public static void main(String[] args) {
+		ClassB clb= new ClassB();
+		String s=clb.empId;
+	}
+	
+	@Override
+	public ClassA myMethod(String srt){
+		ClassB clb=new ClassB();
+		return clb;
+	}
+
+}

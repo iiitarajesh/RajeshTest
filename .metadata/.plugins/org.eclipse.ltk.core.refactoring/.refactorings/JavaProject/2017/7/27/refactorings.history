@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;codeShef.Solution&apos; to &apos;NumberNeeded&apos;&#x0D;&#x0A;- Original project: &apos;JavaProject&apos;&#x0D;&#x0A;- Original element: &apos;codeShef.Solution&apos;&#x0D;&#x0A;- Renamed element: &apos;codeShef.NumberNeeded&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Solution&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;codeShef{Solution.java[Solution" matchStrategy="1" name="NumberNeeded" qualified="false" references="true" similarDeclarations="false" stamp="1499540410973" textual="false" version="1.0"/>
+</session>

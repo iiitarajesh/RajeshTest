@@ -1,0 +1,57 @@
+package codeShef;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class braceproblem {
+	public static void main(String[] args) {
+	List<String> myInputList = new ArrayList<>();
+	 Scanner scan = new Scanner(System.in);
+     int testCase = scan.nextInt();
+     while (testCase-- > 0) {
+         String inputString = scan.next();
+         myInputList.add(inputString);
+        
+     }
+   for
+     
+}
+	
+	
+	 static String[] braces(String[] values) {
+		 
+		 int maxSize=a.length>=b.length? a.length:b.length;
+		 
+		 	String[] input=values;
+	        String[] output;
+	        char[] openBrace={'[','{','('};
+	        char[] closeBrace={']','}',')'};
+	        int openBraceCount=0,closeBraceCount=0;
+	        for () {
+				
+			}
+	        foreach(String inputValues: values){
+	            char[] inputChar=inputValues.toCharArray();
+	            for(int i=0;i<inputChar.length;i++){
+	                for(int j=0;j<openBrace.length;j++){
+	                    if(inputChar[i]=openBrace[j]){
+	                        openBraceCount++;
+	                    }
+	                     if(inputChar[i]=closeBrace[j]){
+	                        closeBraceCount++;
+	                    }   
+	                }
+	            }
+	            int index=0;
+	            if(openBraceCount==closeBraceCount){
+	                output[index]="Yes";
+	                index++;
+	            }else{
+	                output[index]="No";
+	                index++;
+	            }
+	        }
+	        return output;
+	    }
+}

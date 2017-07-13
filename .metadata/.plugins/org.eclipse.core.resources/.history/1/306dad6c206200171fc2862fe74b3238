@@ -1,0 +1,20 @@
+package threadPkg;
+
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class MyCallable implements Callable<String> {
+
+	@Override
+	public String call() throws Exception {
+		Thread.sleep(1000);
+		return Thread.currentThread().getName();
+	}
+	
+	public static void main(String[] args) {
+		ExecutorService es=Executors.newFixedThreadPool(10);
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+package raj;
+
+//it is a way of getting class names at runtime and creating objects of that class.
+//Java Reflection is a process of examining or modifying the run time behavior of a class at run time.
+public class ReflectionExample {
+
+}

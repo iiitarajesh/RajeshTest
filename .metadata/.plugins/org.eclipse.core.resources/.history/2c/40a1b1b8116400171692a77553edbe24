@@ -1,0 +1,31 @@
+package codeShef;
+import java.io.*;
+import java.lang.reflect.Array;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+public class NumberNeeded {
+	
+    public static int numberNeeded(String first, String second) {
+      int output=0;
+      char[] char2= second.toCharArray();
+      Arrays.sort(char2);
+      String sec=char2.toString();
+     // int maxsize=first.length()>sec.length()?first.length():sec.length();
+      for(int f=0;f<first.length();f++){
+    	  for(int s=0;s<sec.length();s++){
+    		  
+    	  }
+      }
+      
+      return output;
+    }
+  
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String a = in.next();
+        String b = in.next();
+        System.out.println(numberNeeded(a, b));
+    }
+}

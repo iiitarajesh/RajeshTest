@@ -1,0 +1,6 @@
+package raj;
+
+//it is a way of getting class names at runtime and creating objects of that class
+public class ReflectionExample {
+
+}
