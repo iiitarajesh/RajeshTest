@@ -1,5 +1,0 @@
-package threadPkg;
-
-public class EvenRunnable {
-
-}
