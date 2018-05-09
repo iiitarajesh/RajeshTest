@@ -409,3 +409,4 @@ org.eclipse.jdt.core.JavaModelException: bin/officeWork [in JavaProject] is not 
 2018-04-28 21:18:30,032 [Worker-40] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/libs-release/org/hibernate/hibernate-validator/5.3.4.Final/hibernate-validator-5.3.4.Final-sources.jar
 2018-04-28 21:18:32,177 [Worker-40] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/libs-release/org/hibernate/hibernate-validator/5.3.4.Final/hibernate-validator-5.3.4.Final-sources.jar
 2018-04-28 21:18:32,366 [Worker-40] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-validator:5.3.4.Final
+2018-05-09 12:57:26,596 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
